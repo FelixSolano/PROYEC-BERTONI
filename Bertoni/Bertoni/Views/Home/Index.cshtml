@@ -1,0 +1,76 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div id="ListaAlbumnes" name="ListaAlbumnes">
+    <h2>Lista de Albumnes</h2>
+    <table class="table table-sm">
+        <thead>
+            <tr>
+                <th>
+                    ID
+                </th>
+                <th>
+                    Titulo
+                </th>
+                <th>
+                    Accion
+                </th>
+            </tr>
+        </thead>
+        <tbody id="tbdAlbum" name="tbdAlbum"></tbody>
+
+    </table>
+
+</div>
+<div id="ListaFotos" name="ListaFotos">
+    <h2>Lista de Fotos</h2>
+    <table class="table table-sm">
+        <thead>
+            <tr>
+                <th>
+                    ID
+                </th>
+                <th>
+                    Titulo
+                </th>
+                <th>
+                    foto
+                </th>
+                <th>
+                    Accion
+                </th>
+            </tr>
+        </thead>
+        <tbody id="tbdFotos" name="tbdFotos"></tbody>
+
+    </table>
+    <div>
+        <h2>Lista de Comentarios</h2>
+        <table class="table table-sm">
+            <thead>
+                <tr>
+                    <th>
+                        ID
+                    </th>
+                    <th>
+                        name
+                    </th>
+                    <th>
+                        email
+                    </th>
+                    <th>
+                        body
+                    </th>
+
+                </tr>
+            </thead>
+            <tbody id="tbdComentarios" name="tbdComentarios"></tbody>
+
+        </table>
+    </div>
+
+</div>
+
+
+<script src="~/Scripts/JS/Servicios.js"></script>
